@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cooper-black');
+
 /* Common elements and global styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -11,6 +13,7 @@ a {
     color: #333;
 }
 
+
 button {
     padding: 10px 15px;
     background-color: #007BFF;
@@ -22,7 +25,7 @@ button {
 
 /* Header styles */
 header {
-    height: 400px;
+    height: 200px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -30,22 +33,15 @@ header {
 }
 
 header h1 {
-    color: #fff;
-    background-color: rgba(0,0,0,0.6);
     padding: 10px;
     border-radius: 5px;
+    font-family: 'Cooper Black', sans-serif;
 }
 
 /* Section styles */
 section {
-    padding: 20px;
-}
-
-/* Slider styles (placeholder) */
-.slider img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+    width: 80%;
+    margin: auto;
 }
 
 /* Footer styles */
