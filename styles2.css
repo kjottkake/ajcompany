@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.banner {
+    background: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #fff;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background: #3498db;
+    color: #fff;
+}
+
+/* Content Section Styles */
+.content-section {
+    padding: 60px 0;
+}
+
+.section-header {
+    text-align: center;
+}
+
+/* Social Media Links Styles */
+.social-media {
+    background: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}

@@ -25,32 +25,38 @@ button {
 
 /* Header styles */
 header {
-    padding-top: 10%;
-    padding-bottom: 10%;
-
+    background-image: url('./media/muffinsglitter2.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    text-align: center;
+    
 }
 
 header h1 {
     /* padding: 10px; */
     font-family: 'Cooper Black', sans-serif;
-    font-size: 7rem;
-    width: 70%;
-    margin: auto;
+    font-size: 6rem;
+    /* width: 70%; */
+    /* margin: auto; */
+    color: #1e1e1e;
+    /* color: white; */
+    text-shadow: 10px 10px 0px rgb(255, 255, 255);
 }
 
 
 h2  {
-    /* font-family: 'Cooper Black', sans-serif; */
+    font-family: 'Cooper Black', sans-serif;
     font-size: 4rem;
+
      /* color: whitesmoke; */
 }
 
 /* Section styles */
 section {
-    padding-top: 3%;
-    /* margin: auto; */
-    /* border: 1px solid red; */
-    /* background-color: pink; */
+    padding-top: 5%;
+    border: 1px solid red;
 }
 
 .about {
@@ -58,6 +64,8 @@ section {
 }
 
 .section-container {
+    padding-top: 10%;
+    padding-bottom: 10%;
     display: flex;
     width: 80%;
     margin: auto;
@@ -75,8 +83,10 @@ section {
 
 .section-right img {
     border: 2px solid black;
-    height: 60%;
+    /* height: 60%; */
     border-radius: 500px 0px 0px 0px;
+    max-width: 120%;
+    height: auto;
 }
 
 
@@ -88,9 +98,43 @@ p {
 
 /* Footer styles */
 footer {
-    /* background-color: #333; */
-    /* color: #fff; */
     padding: 20px 0;
     text-align: center;
 }
 
+.founders-img img{
+    width: 250px;
+    border-radius: 200px;
+}
+
+
+.center {
+    margin: auto;
+    grid-area: 1 / 1 / 2 / 3; 
+}
+
+.founders {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: sandybrown;
+}
+
+
+.founder-1 {
+    grid-area: 2 / 1 / 3 / 2; 
+    background-color: pink;
+}
+
+.founder-2 {
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: salmon;
+}
+
+.inno {
+    width: 50%;
+    /* border: 1px solid purple; */
+    border-radius: 550px 200px 12px 450px;
+}
